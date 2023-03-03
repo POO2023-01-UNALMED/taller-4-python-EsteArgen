@@ -8,7 +8,27 @@
       "output": "",
       "comparison": "included",
       "timeout": 10,
-      "points": 50
+      "points": 16
+    },
+    {
+      "name": "Test constructores",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest testConstructores.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 17
+    },
+    {
+      "name": "Test metodos",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest testMetodos.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 17
     }
   ]
 }
